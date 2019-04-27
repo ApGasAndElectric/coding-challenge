@@ -11,6 +11,10 @@ module.exports.run = function(x, y) {
 
 	 Write your code below the comment.
 */
+const twoDArray = [[0,  4,  2,  1],
+		   [3, -1,  1,  0],
+		   [0,  0,  2,  3],
+		   [1,  3, -3,  0]];
 
 };
 
