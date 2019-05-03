@@ -1,6 +1,8 @@
 module.exports.run = function(movies) {
 /*
-	You are given a list of urls that will be used to search up movies. Make a GET call with axios using the given urls to search each movies. Then return an array of objects with the properties 'Title, Year, Genre' of each movie in the same order it came in as.
+	You are given a list of urls that will be used to search up movies.
+	Make a GET call with axios using the given urls to search each movies.
+	Then return an array of objects with the properties 'Title, Year, Genre' of each movie in the same order it came in as.
 
 	You are welcome to change this function to an async/await.
 

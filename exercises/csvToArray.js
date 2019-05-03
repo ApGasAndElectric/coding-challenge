@@ -1,6 +1,8 @@
 module.exports.run = function(csv){
 /*
-	A stringified CSV file will be passed into this function. Parse the string so it is an array of objects and return the array. The object properties are the header of the csv file, and the very first row of the csv file are the headers.
+	A stringified CSV file will be passed into this function.
+	Parse the string so it is an array of objects and return the array.
+	The object properties are the header of the csv file, and the very first row of the csv file are the headers.
 
 	Example
 
