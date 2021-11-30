@@ -18,7 +18,7 @@ describe('moviesDetails.js', () => {
 			result[0].should.have.property('Year');
 			result[0].Year.should.equal('2009');
 			result[0].should.have.property('Genre');
-			result[0].Genre.should.equal('Drama, Fantasy, Romance, Sci-Fi');
+			result[0].Genre.should.equal('Drama, Fantasy, Romance');
 
 			result[1].should.be.a('object');
 			result[1].should.have.property('Title');
