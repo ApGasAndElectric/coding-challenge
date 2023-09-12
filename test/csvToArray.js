@@ -7,7 +7,7 @@ describe('csvToArray.js', () => {
 		const csvToArray = require('../exercises/csvToArray');
 
 		try{
-			const result = csvToArray.run('FirstName,LastName,Age/nDan,Tran,29/nDon,Tran,25/nJasmine,Tran,13');
+			const result = csvToArray.run('FirstName,LastName,Age\nDan,Tran,29\nDon,Tran,25\nJasmine,Tran,13');
 			result.should.be.a('array');
 			result.length.should.equal(3);
 			result[0].should.have.property('FirstName');
@@ -38,7 +38,7 @@ describe('csvToArray.js', () => {
 		const csvToArray = require('../exercises/csvToArray');
 
 		try{
-			const result = csvToArray.run('Company Name,Ticker Symbol,Price Paid,Quantity/nGENERAL ELECTRIC,GE,12,100/nVisa,V,100,10/nJP Morgan,JPM,13,123');
+			const result = csvToArray.run('Company Name,Ticker Symbol,Price Paid,Quantity\nGENERAL ELECTRIC,GE,12,100\nVisa,V,100,10\nJP Morgan,JPM,13,123');
 			result.should.be.a('array');
 			result.length.should.equal(3);
 			result[0].should.have.property('Company Name');
