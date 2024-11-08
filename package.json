@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/DanDaManTran/codingExercises#readme",
   "dependencies": {
-    "axios": "~0.21.1",
+    "axios": "~0.28.0",
     "bluebird": "^3.5.4",
     "chai": "^4.2.0",
     "lodash": "^4.17.11",
