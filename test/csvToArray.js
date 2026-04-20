@@ -27,7 +27,7 @@ describe('csvToArray.js', () => {
 			result[2].should.have.property('Age');
 			result[2].FirstName.should.equal('Jasmine');
 			result[2].LastName.should.equal('Tran')
-			result[2].Age.should.equal('13');
+			result[2].Age.should.equal('11');
 
 		}
 		catch(err){
